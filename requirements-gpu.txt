@@ -1,0 +1,4 @@
+rembg[gpu]==2.0.76
+opencv-python==4.10.0.84
+Pillow==12.1.0
+numpy==2.3.0
