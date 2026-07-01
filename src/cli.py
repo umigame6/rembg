@@ -43,7 +43,7 @@ def process_single_image(input_path, output_path, mask_path=None):
         output_file.parent.mkdir(parents=True, exist_ok=True)
         
         cv2.imwrite(str(output_file), result)
-        print(f"✓ 保存完了: {output_path}")
+        print(f"[OK] 保存完了: {output_path}")
         return True
         
     except Exception as e:
